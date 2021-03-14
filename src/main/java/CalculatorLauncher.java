@@ -3,5 +3,7 @@ public class CalculatorLauncher {
         Calculator c=new Calculator();
         System.out.println(c.addition(1,2));
         System.out.println(c.subtraction(4,3));
+        System.out.println(c.multiplication(2,3));
+        System.out.println(c.division(6,3));
     }
 }
