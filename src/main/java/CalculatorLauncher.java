@@ -5,5 +5,6 @@ public class CalculatorLauncher {
         System.out.println(c.subtraction(4,3));
         System.out.println(c.multiplication(2,3));
         System.out.println(c.division(6,3));
+        System.out.println(c.power(2,3));
     }
 }
