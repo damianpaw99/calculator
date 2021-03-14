@@ -9,6 +9,11 @@ public class Calculator {
         return x*y;
     }
     public double division(int x, int y){
-        return (double)x/y;
+        try {
+            return (double) x / y;
+        } catch (ArithmeticException e){
+            e.getStackTrace();
+            return Double.NaN;
+        }
     }
 }
