@@ -16,4 +16,7 @@ public class Calculator {
             return Double.NaN;
         }
     }
+    public int power(int x, int y){
+        return (int) Math.pow(x,y);
+    }
 }
